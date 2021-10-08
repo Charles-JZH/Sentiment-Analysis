@@ -14,4 +14,5 @@ https://hub.docker.com/repository/docker/charlesjiang1997/sentiment-analysis-web
 6. Push these images to my own dockerhub. The url of these three images are above.  
 7. Log in the GCP. Pull these images from my dockerhub to the GCP.  
 8. Rename these images again and push them to Container Registry.  
-9. Initialize a new GKE cluster and deploy these images to it.  
+9. Initialize a new GKE cluster and deploy these three images on it.  
+10. Expose the 80 port for frontend application. Now we can get access to the running application through the Internet.
